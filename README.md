@@ -5,4 +5,6 @@ Pros | Cons
 -----|-----
 Quality of dehazed images are quite good. | Optimal estimate of transmission map is not always guaranteed.
 Dark details are well preserved. | Extremely time-consuming is a main problem.
-Visibility is restored considerably to the hazy images.
+
+## Future development
+* Solving the optimization problem analytically to derive a direct solution of transmission map. This will significantly accelerate the processing rate and favor the hardware implementation for real-time processing.
