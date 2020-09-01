@@ -3,6 +3,6 @@ This is the MATLAB source code of a haze removal algorithm, which was published 
 
 Pros | Cons
 -----|-----
-* Quality of dehazed images are quite good. | * Optimal estimate of transmission map is not always guaranteed.
-* Dark details are well preserved. | * Extremely time-consuming is a main problem.
-* Visibility is restored considerably to the hazy images.
+Quality of dehazed images are quite good. | Optimal estimate of transmission map is not always guaranteed.
+Dark details are well preserved. | Extremely time-consuming is a main problem.
+Visibility is restored considerably to the hazy images.
