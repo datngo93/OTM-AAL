@@ -1,1 +1,2 @@
 # OTM-AAL
+This is the MATLAB source code of a haze removal algorithm, which was published in Remote Sensing (MDPI). In this paper, the transmission map was estimated by maximizing an objective function quantifying image contrast and shaprness. Additionally, an adaptive atmospheric light was devised to prevent the loss of dark details after removing haze. The pros and cons of this algorithm is summarized as follows:
