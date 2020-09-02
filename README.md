@@ -9,7 +9,7 @@ Dark details are well preserved. | Extremely time-consuming is a main problem.
 
 Some qualitative results are as follows:
 
-![First](https://imgur.com/3h32QsS)
+![First](/results/more_results_1.jpg)
 
 ## Run the code
 Executing the file *OTM_demo.m* in **MATLAB R2019a** to view the demonstration results on different types of input images, namely:
