@@ -8,6 +8,7 @@ Quality of dehazed images are quite good. | Optimal estimate of transmission map
 Dark details are well preserved. | Extremely time-consuming is a main problem.
 
 Some qualitative results are as follows:
+
 ![First](https://imgur.com/3h32QsS)
 
 ## Run the code
