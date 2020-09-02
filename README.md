@@ -7,15 +7,6 @@ Pros | Cons
 Quality of dehazed images are quite good. | Optimal estimate of transmission map is not always guaranteed.
 Dark details are well preserved. | Extremely time-consuming is a main problem.
 
-Some qualitative results are as follows:
-
-![First](/results/more_results_1.jpg)
-![Second](/results/more_results_2.jpg)
-![Third](/results/more_results_3.jpg)
-![Fourth](/results/more_results_4.jpg)
-![Fifth](/results/more_results_5.jpg)
-![Sixth](/results/more_results_6.jpg)
-
 ## Run the code
 Executing the file *OTM_demo.m* in **MATLAB R2019a** to view the demonstration results on different types of input images, namely:
 * Synthetic road scene.
@@ -34,3 +25,11 @@ In any publication related to the use of source code or datasets, you are kindly
 1. [Tarel, J.P.; Hautiere, N.; Caraffa, L.; Cord, A.; Halmaoui, H.; Gruyer, D. Vision Enhancement in Homogeneous and Heterogeneous Fog. *IEEE Intell. Transp. Syst. Mag.* **2012**, 4, 6–20.](https://ieeexplore.ieee.org/document/6190796)
 1. [Ancuti, C.O.; Ancuti, C.; Timofte, R.; De Vleeschouwer, C. O-HAZE: A Dehazing Benchmark with Real Hazy and Haze-Free Outdoor Images. In Proceedings of *the 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)*, Salt Lake City, UT, USA, 18–22 June **2018**; pp. 867–8678.](https://ieeexplore.ieee.org/document/8575270)
 1. [Ancuti, C.O.; Ancuti, C.; Timofte, R.; De Vleeschouwer, C. I-HAZE: A dehazing benchmark with real hazy and haze-free indoor images. *arXiv* **2018**, arXiv:1804.05091.](https://arxiv.org/abs/1804.05091)
+
+## Qualitative results
+![First](/results/more_results_1.jpg)
+![Second](/results/more_results_2.jpg)
+![Third](/results/more_results_3.jpg)
+![Fourth](/results/more_results_4.jpg)
+![Fifth](/results/more_results_5.jpg)
+![Sixth](/results/more_results_6.jpg)
