@@ -42,7 +42,7 @@ switch nargin
         % all parameters are provided
 end
 
-img = img(1:floor(h/ps)*ps,1:floor(w/ps)*ps,1:c); % make sure image sizes are multiple of patch size
+[H,W,~] = size(img);
 imggray = rgb2gray(img);
 [~,~,~,~,a] = qtSubAl(img); % atmospheric light
 
@@ -60,7 +60,8 @@ for pi = 1:size(patches,2)
     t_opt(pi) = fminsearch(objFunc,t_init,options);
 end
 t_opt = repmat(t_opt,[ps^2,1]);
-t_opt = col2im(t_opt,[ps,ps],[floor(h/ps)*ps,floor(w/ps)*ps],'distinct');
+t_opt = col2im(t_opt,[ps,ps],[ceil(h/ps)*ps,ceil(w/ps)*ps],'distinct');
+t_opt = t_opt(1:H,1:W);
 t_opt_en = guidedfilter(double(imggray)/255,t_opt,30,1e-4);
 
 if aalEn
